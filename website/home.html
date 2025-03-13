@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Запознайте се с най-доброто в гейминга!">
+    <meta name="keywords" content="gaming, гейминг, новини, news">
+    <meta name="author" content="Ahmed Ahmed 124611">
+    <title>Начало</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/989f156f14.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="Resources/favicon.png">
+</head>
+<body>
+
+    <video class="video" src="Resources/pacman.mp4" autoplay loop muted></video>
+
+    <header>
+        <img class="logo" src="Resources/Logo.PNG" alt="Logo">
+        <ul class="navbar">
+            <li><a class="home_link" href="#">Начало</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "about_link" href="about.html">За нас</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "contact_link" href="contact.html">Контакти</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "reviews_link" href="reviews.html">Ревюта</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "news_link" href="news.html">Новини</a>
+                <div class="underline"></div>
+            </li>
+        </ul>
+        <div class="navbar_small button"><i class="fa-solid fa-bars"></i></div>
+        <div class="navbar_small container">
+            <ul class="navbar_small list">
+                <li><a class="home_link" href="#">Начало</a>
+                </li>
+                <li><a class = "about_link" href="about.html">За нас</a>
+                </li>
+                <li><a class = "contact_link" href="contact.html">Контакти</a>
+                </li>
+                <li><a class = "reviews_link" href="reviews.html">Ревюта</a>
+                </li>
+                <li><a class = "news_link" href="news.html">Новини</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="featured_content">
+            <div class="article sway">
+                <img class="cartridge" src="Resources/game_cartridge.png" alt="cartridge">
+                <h1>Кои сме ние?</h1>
+                <form action="about.html">
+                    <input class="about_button" type="submit" value="За нас">
+                </form>
+            </div>
+        </div>
+        <h2 class="recommended sway">Препоръчани ревюта</h2>
+        <div class="featured_content">
+            <div id="balatro" class="content_box home sway">
+                <div>
+                    <img class="review_image" src="Resources/balatro_boxart.jpg" alt="balatro">
+                </div>
+                <div>
+                    <h2>Balatro</h2>
+                    <ul>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </ul>   
+                </div>
+            </div>
+            <div id="eldenring" class="content_box home sway">
+                <div>
+                    <img class="review_image" src="Resources/eldenring_boxart.jpg" alt="balatro">
+                </div>
+                <div>
+                    <h2>Elden Ring</h2>
+                    <ul>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>   
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer nav">
+            <ul>
+                <li><a class="home_link" href="#">Начало</a>
+                </li>
+                <li><a class = "about_link" href="about.html">За нас</a>
+                </li>
+                <li><a class = "contact_link" href="contact.html">Контакти</a>
+                </li>
+                <li><a class = "reviews_link" href="reviews.html">Ревюта</a>
+                </li>
+                <li><a class = "news_link" href="news.html">Новини</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer contacts">
+            <ul>
+                <li>Телефон: 089 4352 124</li>
+                <li>Факс: 088 452 324</li>
+                <li>Email: gamerank@email.com</li>
+                <li>Адрес: гр. Варна</li>
+            </ul>
+        </div>
+        <div class="footer social">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i> X</a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+    <script>
+            document.getElementById('balatro').addEventListener('click', function() {
+                window.location.href = 'reviews.html#balatro_review'; 
+            });
+
+            document.getElementById('eldenring').addEventListener('click', function() {
+                window.location.href = 'reviews.html#eldenring_review'; 
+            });
+    </script>
+</body>
+</html>

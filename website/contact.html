@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Свържете се с нас!">
+    <meta name="keywords" content="контакти, contacts">
+    <meta name="author" content="Ahmed Ahmed 124611">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/989f156f14.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="Resources/favicon.png">
+</head>
+<body>
+
+    <video class="video" src="Resources/themessenger.mp4" autoplay loop muted></video>
+
+    <header>
+        <img class="logo" src="Resources/Logo.PNG" alt="Logo">
+        <ul class="navbar">
+            <li><a class="home_link" href="home.html">Начало</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "about_link" href="about.html">За нас</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "contact_link" href="#">Контакти</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "reviews_link" href="reviews.html">Ревюта</a>
+                <div class="underline"></div>
+            </li>
+            <li><a class = "news_link" href="news.html">Новини</a>
+                <div class="underline"></div>
+            </li>
+        </ul>
+        <div class="navbar_small button"><i class="fa-solid fa-bars"></i></div>
+        <div class="navbar_small container">
+            <ul class="navbar_small list">
+                <li><a class="home_link" href="home.html">Начало</a>
+                </li>
+                <li><a class = "about_link" href="about.html">За нас</a>
+                </li>
+                <li><a class = "contact_link" href="#">Контакти</a>
+                </li>
+                <li><a class = "reviews_link" href="reviews.html">Ревюта</a>
+                </li>
+                <li><a class = "news_link" href="news.html">Новини</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="content_box contact">
+            <div>
+                <ul>
+                    <li>Телефон: 089 4352 124</li>
+                    <li>Факс: 088 452 324</li>
+                    <li>Email: gamerank@email.com</li>
+                    <li>Адрес: гр. Варна</li>
+                </ul>
+                
+                <iframe class=map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93062.94557790681!2d27.86050832442965!3d43.20493666190693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538baaf3d7a1%3A0x5727941c71a58b7c!2z0JLQsNGA0L3QsA!5e0!3m2!1sbg!2sbg!4v1735744077499!5m2!1sbg!2sbg"
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            
+            </div>
+            <div>
+                <form class="contact_form" action="#">
+                    <label for="name">Име:</label><br>
+                    <input type="text" placeholder="Име" name="name" id="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" placeholder="Имейл" name="email" id="email"><br>
+                    <label for="phone">Телефон:</label><br>
+                    <input type="text" placeholder="Телефон" name="phone" id="phone"><br>
+                    <label for="message">Съобщение:</label><br>
+                    <textarea cols="40" rows="10" name="message" id="message" class="message" placeholder="Вашето съобщение"></textarea><br>
+                    <input class="submit_button" type="submit" value="Изпрати">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer nav">
+            <ul>
+                <li><a class="home_link" href="home.html">Начало</a>
+                </li>
+                <li><a class = "about_link" href="about.html">За нас</a>
+                </li>
+                <li><a class = "contact_link" href="#">Контакти</a>
+                </li>
+                <li><a class = "reviews_link" href="reviews.html">Ревюта</a>
+                </li>
+                <li><a class = "news_link" href="news.html">Новини</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer contacts">
+            <ul>
+                <li>Телефон: 089 4352 124</li>
+                <li>Факс: 088 452 324</li>
+                <li>Email: gamerank@email.com</li>
+                <li>Адрес: гр. Варна</li>
+            </ul>
+        </div>
+        <div class="footer social">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i> X</a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
